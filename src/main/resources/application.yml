@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+
+eureka:
+  client:
+    region: false
+    fetch-registry: false
+
+server:
+  port: 8761
